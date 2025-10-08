@@ -1,7 +1,8 @@
 from fastapi import FastAPI, Query, HTTPException
 import os
 import json
-from config import DATA_FOLDER
+
+DATA_FOLDER = "data"
 
 app = FastAPI(title="USD Rates API")
 
@@ -33,3 +34,7 @@ def get_rates(
             continue
 
     return result
+
+
+
+
