@@ -11,6 +11,8 @@
 3. **Анализ и визуализация**
    -  analysis/plot.py строит график динамики курса USD с помощью matplotlib.
    -  График отображается в отдельном окне matplotlib.
+  <img width="563" height="353" alt="Снимок экрана 2025-10-18 143651" src="https://github.com/user-attachments/assets/a409b19a-b458-42e0-843a-0b684f2be203" />
+     
 4. **API** для получения исторических курсов USD из JSON-файлов (data/).
    - Параметры: limit (1–100, по умолчанию 10), sort (asc/desc, по умолчанию desc)
 
