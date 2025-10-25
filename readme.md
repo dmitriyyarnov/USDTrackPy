@@ -22,6 +22,7 @@
 ### Построение графика
     python plot.py
 График динамики курса USD откроется в отдельном окне matplotlib.
+![](/gra.png)
 
 ### Rates API
 API на FastAPI для получения исторических курсов USD из JSON-файлов (`data/`). 
